@@ -1,0 +1,11 @@
+
+.Container{
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 100px;
+}	
+
+.imgContainer{
+	width: 1200px;
+}

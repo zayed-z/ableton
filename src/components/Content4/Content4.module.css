@@ -1,0 +1,29 @@
+
+.Container{
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 100px;
+	padding-top: 80px;
+}	
+
+.lavContainer{
+	width: 1064px;
+	height: 933px;
+	background-color: #d5b3ff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+.imgContainer{
+	position: absolute;
+	left: 10px;
+	width: 1200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 350px;
+	margin-right: auto;
+}

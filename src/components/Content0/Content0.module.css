@@ -1,0 +1,28 @@
+@font-face {
+	font-family: "FuturaPtBook";
+	src: url("./../../fonts/Futura/FuturaCyrillicBook.ttf")
+   }
+
+
+.heroContainer {
+    background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.imgContainer {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: fit-content;
+	padding-bottom: 80px;
+	
+}
+
+.textContainer{
+	font-size: 60px;
+	font-family: FuturaPtBook, Arial, Helvetica, sans-serif;
+	position: absolute;
+	color: #fd5948;
+}

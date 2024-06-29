@@ -1,0 +1,39 @@
+@font-face {
+	font-family: "FuturaPt";
+	src: url('./../../fonts/Futura/FuturaCyrillicBook.ttf');
+}
+
+.Description{
+	background-color: white;
+	padding:20px 250px 20px 250px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	flex-wrap: nowrap;
+}
+.Description::selection{
+	background: #ff764d;
+}
+.bigger{
+	font-family: FuturaPt, Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 700;
+	margin: 0 auto 0 auto;
+
+	padding:10px 150px 10px 150px;
+}
+
+.smaller{
+	font-family: FuturaPt, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	
+	padding:0px 150px 10px 150px;
+	margin: 10 auto 0 auto;
+}
+.blueText{
+	color: #0000ff;
+}

@@ -1,0 +1,32 @@
+@font-face {
+	font-family: "FuturaPtBook";
+	src: url("./../../fonts/Futura/FuturaCyrillicBook.ttf")
+   }
+
+
+.menubarContainer {
+    position: sticky;
+    padding: 20px 40px 20px 30px;
+    background-color: white;
+}
+.menuList {
+    display: flex;
+    gap: 20px;
+}
+.menuItems {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.menuItems a {
+    text-decoration: none;
+    font-family: FuturaPtBook, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+}
+.menuList .aboutItem {
+    color: orange;
+}

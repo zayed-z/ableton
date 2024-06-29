@@ -1,0 +1,28 @@
+
+
+
+.containerHero{
+	height: 1200px;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.yellowHero{
+	background-color: #b6ffc0;
+	height: 1200px;
+	width: 935px;
+	margin-right: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+
+}
+.image1{
+	position: absolute;
+	padding-left: 730px;
+	left: 350px;
+}
