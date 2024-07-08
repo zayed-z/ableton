@@ -1,3 +1,223 @@
+@font-face {
+	font-family: "FuturaPt";
+	src: url('./../../fonts/Futura/FuturaCyrillicBook.ttf');
+}
 .footerContainer{
 	background-color: white;
+	padding: 100px;
+	display: flex;
+	flex-wrap: nowrap;
+	
+}
+
+.footerTitle{
+	width: 100%;
+	height: 110px;
+}
+
+.footerTitle img{
+	height: 45px;
+	width: 188px;
+}
+
+.footerCont{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+
+
+.firstRow{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 754px;
+	font-family: FuturaPt, Arial, Helvetica, sans-serif;
+
+
+}
+.firstRow div{
+	width: 342px;
+	height: 177px;
+}
+.about{
+	list-style: none;
+	font-size: 20px;
+	font-weight: 400;
+	font-family: FuturaPt, Arial, Helvetica, sans-serif;
+	padding: 0px;
+}
+.abtList::after{
+	box-sizing: border-box;
+    display: inline-block;
+    width: 0.3em;
+    height: 0.3em;
+    content: '';
+    border-style: solid;
+    border-width: 0.09em 0.09em 0 0;
+    transform: rotate(50deg) skew(10deg) translateY(-50%); /* Rotate to make it an arrow */
+    margin-left: 0.1em; /* Optional: space between text and arrow */
+}
+.socialMedia{
+	list-style: none;
+	display: flex;
+	padding: 0px;
+
+}
+.socialMedia img{
+	width: 32px;
+	height: 32px;
+}
+.socialMedia a{
+	text-decoration: none;
+}
+.socialMedList{
+	width: 44px;
+	height: 56px;
+}
+
+.Education{
+	list-style: none;
+	font-size: 20px;
+	font-weight: 400;
+	padding: 0px;
+}
+.eduList::after{
+	box-sizing: border-box;
+    display: inline-block;
+    width: 0.3em;
+    height: 0.3em;
+    content: '';
+    border-style: solid;
+    border-width: 0.09em 0.09em 0 0;
+    transform: rotate(50deg) skew(10deg) translateY(-50%); /* Rotate to make it an arrow */
+    margin-left: 0.1em; /* Optional: space between text and arrow */
+}
+
+.newsLetter{
+	list-style: none;
+	font-size: 20px;
+	font-weight: 400;
+	font-family: FuturaPt, Arial, Helvetica, sans-serif;
+	padding: 0px;
+}
+
+.secondRow{
+	width: 455px;
+	height: 210px;
+	padding: 20px 0px 20px 0px;
+	
+}
+.secondRow text{
+	font-family: FuturaPt, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.secondRow p{
+	font-family: FuturaPt, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+.InputField{
+	width: 100%;
+	height: 42px;
+
+}
+
+.InputField input{
+	box-sizing: border-box;
+	width: 330px;
+	padding: 7px 15px 7px 15px;
+	font-family: FuturaPt, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	border: none;
+	font-weight: 400;
+	background-color: lightgray;
+
+}
+
+.InputField button{
+	box-sizing: border-box;
+	width: 120px;
+	padding: 7px 15px 7px 15px;
+	font-family: FuturaPt, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	border: none;
+	background-color: #0000ff;
+	color: white;
+}
+.LL{
+	padding: 20px 0px 20px 0px;
+	font-size: 20px;
+
+}
+
+
+.thirdRow{
+	font-family: FuturaPt, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	display: flex;
+    justify-content: space-between;
+
+	padding: 0px;
+	margin: none;
+	border: none;
+}
+.listLeft ul{
+	list-style: none;
+	padding: 0;
+}
+
+.listLeftItm a{
+	text-decoration: none;
+	color: black;
+}
+
+.listLeftUl{
+	display: flex;
+	gap: 15px;
+}
+.listRight{
+	display: flex;
+	gap: 15px;
+}
+.listRight img{
+	width: 45px;
+	height: 20px;
+}
+.listRight div{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+
+.langDrop{
+	height: 30px;
+	width: 114px;
+	background-color: lightgrey;
+	border: none;
+	margin-right: 2px;
+	font-family: FuturaPt, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+
+}
+.langDrop option{
+	font-family: FuturaPt, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.CountryDrop{
+	height: 30px;
+	width: 200px;
+
+	background-color: lightgrey;
+	border: none;
+	font-family: FuturaPt, Arial, Helvetica, sans-serif;
+
+}
+.CountryDrop option{
+	font-family: FuturaPt, Arial, Helvetica, sans-serif;
+    font-size: 14px;
 }
