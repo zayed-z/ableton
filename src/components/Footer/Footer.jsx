@@ -20,9 +20,9 @@ function Footer() {
 					<div className={styles.firstRow}>
 						<div className={styles.firstRowcol1}>
 							<ul className={styles.about}>
-								<li className={styles.abtList}>Register Live or Push</li>
-								<li className={styles.abtList}>About Ableton</li>
-								<li className={styles.abtList}>Jobs</li>
+								<li className={styles.abtList}><a href='#' target='_blank'>Register Live or Push</a></li>
+								<li className={styles.abtList}><a href='#' target='_blank'>About Ableton</a></li>
+								<li className={styles.abtList}><a href='#' target='_blank'>Jobs</a></li>
 							</ul>
 							<ul className={styles.socialMedia}>
 								<li className={styles.socialMedList}><a href='#' target='_blank'><img src={imgFb} alt="Facebook" /></a></li>
@@ -35,17 +35,17 @@ function Footer() {
 						<div className={styles.firstRowcol2}>
 							<ul className={styles.Education}>
 								<li style={{ fontWeight: '600' }}>Education</li>
-								<li className={styles.eduList}>Offers for students and teachers</li>
-								<li className={styles.eduList}>Ableton for the classroom</li>
-								<li className={styles.eduList}>Ableton for colleges and Universities</li>
+								<li className={styles.eduList}><a href='#' target='_blank'>Offers for students and teachers</a></li>
+								<li className={styles.eduList}><a href='#' target='_blank'>Ableton for the classroom</a></li>
+								<li className={styles.eduList}><a href='#' target='_blank'>Ableton for colleges and Universities</a></li>
 							</ul>
 						</div>
 						<div className={styles.firstRowcol3}>
 							<ul className={styles.Education}>
 								<li style={{ fontWeight: '600' }}>Community</li>
-								<li className={styles.eduList}>Find Ableton User Groups</li>
-								<li className={styles.eduList}>Find Certified Training</li>
-								<li className={styles.eduList}>Become a Certified Trainer</li>
+								<li className={styles.eduList}><a href='#' target='_blank'>Find Ableton User Groups</a></li>
+								<li className={styles.eduList}><a href='#' target='_blank'>Find Certified Training</a></li>
+								<li className={styles.eduList}><a href='#' target='_blank'>Become a Certified Trainer</a></li>
 							</ul>
 						</div>
 						<div className={styles.firstRowcol4}>
