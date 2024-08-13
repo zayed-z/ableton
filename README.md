@@ -24,5 +24,5 @@ This is a simple React project built using [Vite](https://vitejs.dev/). It serve
 
 ## Acknowledgments
 
-- [React Documentation](https://reactjs.org/docs/getting-started.html)
-- [Vite Documentation](https://vitejs.dev/guide/)
+- [React Documentation](https://react.dev/)
+- [Vite Documentation](https://vitejs.dev/)
