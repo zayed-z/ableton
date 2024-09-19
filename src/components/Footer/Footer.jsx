@@ -34,11 +34,7 @@ function Footer() {
 						</div>
 						<div className={styles.firstRowcol2}>
 							<ul className={styles.Education}>
-<<<<<<< HEAD
 								<li style={{ fontWeight: '600' }}><a href='#' target='_blank'>Education</a></li>
-=======
-								<li style={{ fontWeight: '600' }}>Education</li>
->>>>>>> main
 								<li className={styles.eduList}><a href='#' target='_blank'>Offers for students and teachers</a></li>
 								<li className={styles.eduList}><a href='#' target='_blank'>Ableton for the classroom</a></li>
 								<li className={styles.eduList}><a href='#' target='_blank'>Ableton for colleges and Universities</a></li>
@@ -46,11 +42,7 @@ function Footer() {
 						</div>
 						<div className={styles.firstRowcol3}>
 							<ul className={styles.Education}>
-<<<<<<< HEAD
 								<li style={{ fontWeight: '600' }}><a href='#' target='_blank'>Community</a></li>
-=======
-								<li style={{ fontWeight: '600' }}>Community</li>
->>>>>>> main
 								<li className={styles.eduList}><a href='#' target='_blank'>Find Ableton User Groups</a></li>
 								<li className={styles.eduList}><a href='#' target='_blank'>Find Certified Training</a></li>
 								<li className={styles.eduList}><a href='#' target='_blank'>Become a Certified Trainer</a></li>
