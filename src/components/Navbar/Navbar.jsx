@@ -13,7 +13,7 @@ function Navbar() {
 		<div className={styles.navbarContainer}>
 			<div className={styles.navLogoLeft}>
 				<div className={styles.navbarLogo}>
-					<a href="/">
+					<a href="#">
 						<img src={logo} alt="Ableton Logo" />
 					</a>
 				</div>
