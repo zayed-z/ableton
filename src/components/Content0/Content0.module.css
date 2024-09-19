@@ -1,28 +1,37 @@
 @font-face {
 	font-family: "FuturaPtBook";
 	src: url("./../../fonts/Futura/FuturaCyrillicBook.ttf")
-   }
+}
 
 
 .heroContainer {
-    background-color: white;
+	background: url(../../assets/header.avif);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	height: 100vh;
+	width: 100%;
 
 }
 
-.imgContainer {
-	margin-left: auto;
-	margin-right: auto;
-	max-width: fit-content;
-	padding-bottom: 80px;
-	
-}
-
-.textContainer{
-	font-size: 60px;
+.textContainer {
+	font-size: 96px;
 	font-family: FuturaPtBook, Arial, Helvetica, sans-serif;
-	position: absolute;
 	color: #fd5948;
+}
+
+@media (width <=960px) {
+	.heroContainer {
+		width: auto;
+		min-height: 90px;
+		max-height: 50vh;
+
+	}
+	.textContainer {
+		font-size: 72px;
+		
+	}
 }

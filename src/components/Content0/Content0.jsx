@@ -5,13 +5,7 @@ import backGroundImage from "./../../assets/header.avif";
 function Content0() {
 	return (
 		<div className={styles.heroContainer}>
-			<div className={styles.imgContainer}>
-				<img src={backGroundImage} alt="Hero" />
-				
-			</div>
-			<div className={styles.textContainer}>
-				<h1>Ableton</h1>
-			</div>
+			<h1 className={styles.textContainer}>Ableton</h1>
 		</div>
 	);
 }

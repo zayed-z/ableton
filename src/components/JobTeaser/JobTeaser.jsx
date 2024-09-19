@@ -9,7 +9,6 @@ function JobTeaser() {
 				<img src={Img} alt="" />
 				<div className={styles.jobCont}>
 
-					<div>
 						<p>
 							We're really proud of the work we've done so far.
 							But there's so much more to come. If you'd like to be a part of it,
@@ -21,7 +20,6 @@ function JobTeaser() {
 							</p>
 						</a>
 
-					</div>
 
 				</div>
 

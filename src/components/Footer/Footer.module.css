@@ -2,99 +2,120 @@
 	font-family: "FuturaPt";
 	src: url('./../../fonts/Futura/FuturaCyrillicBook.ttf');
 }
-.footerContainer{
-	background-color: white;
-	padding: 100px;
-	display: flex;
-	flex-wrap: nowrap;
+a {
+	text-decoration: none;
+	color: inherit
 	
 }
+.footerContainer {
+	background-color: white;
+	width: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+	overflow: hidden;
 
-.footerTitle{
+}
+.mainFooter{
+	padding: 5%;
+}
+.footerTitle {
 	width: 100%;
 	height: 110px;
 }
 
-.footerTitle img{
+.footerTitle img {
 	height: 45px;
 	width: 188px;
 }
 
-.footerCont{
+.footerCont {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
+	justify-content: space-between;
 }
 
 
-.firstRow{
+.firstRow {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	width: 754px;
+	width: 60%;
 	font-family: FuturaPt, Arial, Helvetica, sans-serif;
 
 
 }
-.firstRow div{
-	width: 342px;
-	height: 177px;
+
+.firstRow div {
+	width: 50%;
+	height: auto;
 }
-.about{
+
+.about {
 	list-style: none;
 	font-size: 20px;
 	font-weight: 400;
 	font-family: FuturaPt, Arial, Helvetica, sans-serif;
 	padding: 0px;
 }
-.abtList::after{
+
+.abtList::after {
 	box-sizing: border-box;
-    display: inline-block;
-    width: 0.3em;
-    height: 0.3em;
-    content: '';
-    border-style: solid;
-    border-width: 0.09em 0.09em 0 0;
-    transform: rotate(50deg) skew(10deg) translateY(-50%); /* Rotate to make it an arrow */
-    margin-left: 0.1em; /* Optional: space between text and arrow */
+	display: inline-block;
+	width: 0.3em;
+	height: 0.3em;
+	content: '';
+	border-style: solid;
+	border-width: 0.09em 0.09em 0 0;
+	transform: rotate(50deg) skew(10deg) translateY(-50%);
+	/* Rotate to make it an arrow */
+	margin-left: 0.1em;
+	/* Optional: space between text and arrow */
 }
-.socialMedia{
+
+.socialMedia {
 	list-style: none;
 	display: flex;
 	padding: 0px;
 
 }
-.socialMedia img{
+
+.socialMedia img {
 	width: 32px;
 	height: 32px;
 }
-.socialMedia a{
+
+.socialMedia a {
 	text-decoration: none;
 }
-.socialMedList{
+
+.socialMedList {
 	width: 44px;
 	height: 56px;
 }
 
-.Education{
+.Education {
 	list-style: none;
 	font-size: 20px;
 	font-weight: 400;
 	padding: 0px;
 }
-.eduList::after{
+
+.eduList::after {
 	box-sizing: border-box;
-    display: inline-block;
-    width: 0.3em;
-    height: 0.3em;
-    content: '';
-    border-style: solid;
-    border-width: 0.09em 0.09em 0 0;
-    transform: rotate(50deg) skew(10deg) translateY(-50%); /* Rotate to make it an arrow */
-    margin-left: 0.1em; /* Optional: space between text and arrow */
+	display: inline-block;
+	width: 0.3em;
+	height: 0.3em;
+	content: '';
+	border-style: solid;
+	border-width: 0.09em 0.09em 0 0;
+	transform: rotate(50deg) skew(10deg) translateY(-50%);
+	/* Rotate to make it an arrow */
+	margin-left: 0.1em;
+	/* Optional: space between text and arrow */
 }
 
-.newsLetter{
+.newsLetter {
 	list-style: none;
 	font-size: 20px;
 	font-weight: 400;
@@ -102,31 +123,29 @@
 	padding: 0px;
 }
 
-.secondRow{
-	width: 455px;
-	height: 210px;
-	padding: 20px 0px 20px 0px;
-	
+.secondRow {
+	width: 35%;	
 }
-.secondRow text{
+
+.secondRow text {
 	font-family: FuturaPt, Arial, Helvetica, sans-serif;
 	font-size: 20px;
 	font-weight: 600;
 }
 
-.secondRow p{
+.secondRow p {
 	font-family: FuturaPt, Arial, Helvetica, sans-serif;
 	font-size: 20px;
 }
-.InputField{
+
+.InputField {
 	width: 100%;
-	height: 42px;
 
 }
 
-.InputField input{
+.InputField input {
 	box-sizing: border-box;
-	width: 330px;
+	width: 100%;
 	padding: 7px 15px 7px 15px;
 	font-family: FuturaPt, Arial, Helvetica, sans-serif;
 	font-size: 20px;
@@ -136,7 +155,7 @@
 
 }
 
-.InputField button{
+.InputField button {
 	box-sizing: border-box;
 	width: 120px;
 	padding: 7px 15px 7px 15px;
@@ -147,54 +166,66 @@
 	background-color: #0000ff;
 	color: white;
 }
-.LL{
+
+.LL {
 	padding: 20px 0px 20px 0px;
 	font-size: 20px;
 
 }
 
 
-.thirdRow{
+.thirdRow {
 	font-family: FuturaPt, Arial, Helvetica, sans-serif;
-	font-size: 14px;
+	font-size: 12px;
 	font-weight: 500;
 	display: flex;
-    justify-content: space-between;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
 
 	padding: 0px;
 	margin: none;
 	border: none;
 }
-.listLeft ul{
+
+.listLeft ul {
 	list-style: none;
 	padding: 0;
 }
 
-.listLeftItm a{
+.listLeftItm a {
 	text-decoration: none;
 	color: black;
+	font-size: 12px;
 }
 
-.listLeftUl{
+.listLeftUl {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5rem;
+}
+
+.listRight {
 	display: flex;
 	gap: 15px;
 }
-.listRight{
-	display: flex;
-	gap: 15px;
-}
-.listRight img{
+
+.listRight img {
 	width: 45px;
 	height: 20px;
 }
-.listRight div{
+
+.listRight div {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 }
 
 
-.langDrop{
+.langDrop {
 	height: 30px;
 	width: 114px;
 	background-color: lightgrey;
@@ -204,11 +235,13 @@
 	font-size: 14px;
 
 }
-.langDrop option{
+
+.langDrop option {
 	font-family: FuturaPt, Arial, Helvetica, sans-serif;
-    font-size: 14px;
+	font-size: 14px;
 }
-.CountryDrop{
+
+.CountryDrop {
 	height: 30px;
 	width: 200px;
 
@@ -217,7 +250,39 @@
 	font-family: FuturaPt, Arial, Helvetica, sans-serif;
 
 }
-.CountryDrop option{
+
+.CountryDrop option {
 	font-family: FuturaPt, Arial, Helvetica, sans-serif;
-    font-size: 14px;
+	font-size: 14px;
+}
+
+
+@media (width <= 960px){
+	.footerCont {
+		flex-direction: column;
+		align-items: center;
+		padding: 0;
+	}
+	.firstRow {
+		justify-content: space-between;
+		width: 100%;
+	}
+	.secondRow {
+		justify-content: space-around;
+		width: 80%;
+		padding: 20px 0px 20px 0px;
+
+	}
+	
+}
+
+@media (width <= 640px){
+	.mainFooter{
+		padding: 12px;
+	}
+	.firstRow div{
+		width: auto;
+	}
+	
+	
 }

@@ -1,28 +1,108 @@
-
-
-
-.containerHero{
-	height: 1200px;
+.containerHero {
+	height: 140vh;
 	background-color: white;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	padding-top: 70px;
 	padding-bottom: 70px;
+	position: relative;
+	overflow: hidden;
 }
-.yellowHero{
+
+.yellowHero {
 	background-color: #b6ffc0;
-	height: 1200px;
-	width: 935px;
+	height: 100%;
+	width: 60%;
 	margin-right: auto;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: space-evenly;
+	justify-content: space-around;
 
 }
-.image1{
+
+.image1 {
 	position: absolute;
-	padding-left: 730px;
-	left: 350px;
+	left: 55%;
+}
+
+@media (width <=960px) {
+	.containerHero {
+		padding: 0;
+	}
+	.yellowHero {
+		width: 50%;
+	}
+
+	.image2 {
+		height: auto;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.image2 img {
+		width: 100%;
+		height: auto;
+	}
+
+	.image1 {
+		position: static;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.image1 img {
+		width: 100%;
+		height: auto;
+	}
+}
+
+@media (width <=640px) {
+	.containerHero {
+		display: block;
+		padding: 0;
+		margin: 0;
+		height: auto;
+	}
+
+	.yellowHero {
+		width: 100%;
+		margin: 0;
+		justify-content: space-around;
+		gap: 2rem;
+		height: auto;
+		padding: 2rem 0;
+
+	}
+
+	.image2 {
+		height: auto;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.image2 img {
+		width: 100%;
+		height: auto;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.image1 {
+		position: static;
+		width: 100%;
+		height: auto;
+		
+	}
+
+	.image1 img {
+		width: 100%;
+		height: auto;
+	}
 }

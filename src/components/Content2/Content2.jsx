@@ -5,9 +5,9 @@ import Image2 from './../../assets/photo4.jpg'
 import Image3 from './../../assets/photo5.jpg'
 
 function Content2() {
-  return (
-	<div className={styles.containerHero}>
-			
+	return (
+		<div className={styles.containerHero}>
+
 
 			<div className={styles.yellowHero}>
 				<div className={styles.image2}>
@@ -19,14 +19,14 @@ function Content2() {
 
 				</div>
 			</div>
-			
+
 			<div className={styles.image1}>
 				<img src={Image3} alt="" />
 			</div>
-			
+
 
 		</div>
-  )
+	)
 }
 
 export default Content2
