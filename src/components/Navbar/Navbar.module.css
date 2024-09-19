@@ -21,7 +21,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: white;
-    padding: 5px 20px 5px 30px;
+    padding: 15px 20px 5px 30px;
 }
 .navbarContainer .navLogoLeft {
     display: flex;
@@ -73,4 +73,12 @@
 	font-weight: 700;
     font-size: 16px;
 
+}
+
+@media ( width <= 1020px){
+
+	.navbarContainer {
+		display: none;
+	}
+	
 }

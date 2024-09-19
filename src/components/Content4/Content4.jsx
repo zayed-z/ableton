@@ -8,13 +8,13 @@ function Content4() {
 		<div className={styles.Container}>
 
 			<div className={styles.lavContainer}>
-				<div className={styles.imgContainer}>
-					<img src={Img} alt="" />
-					<img src={Img1} alt="" />
-				</div>
+				<img className='img1' src={Img} alt="" />
+				<img className='img2' src={Img1} alt="" />
 			</div>
 
 		</div>
+
+		
 	)
 }
 

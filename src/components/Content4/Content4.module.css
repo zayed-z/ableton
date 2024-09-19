@@ -1,29 +1,40 @@
 
 .Container{
 	background-color: white;
+	width: 100%;
+	height: 100vh;
 	display: flex;
+	align-items: center;
 	justify-content: center;
-	padding-bottom: 100px;
-	padding-top: 80px;
+	overflow: hidden;
+	
+	
 }	
 
 .lavContainer{
-	width: 1064px;
-	height: 933px;
+	width: 80%;
+	height: 100vh;
 	background-color: #d5b3ff;
 	display: flex;
 	align-items: center;
-	justify-content: center;
-	position: relative;
+	justify-content: space-around;
+	
 }
 
-.imgContainer{
-	position: absolute;
-	left: 10px;
-	width: 1200px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	gap: 350px;
-	margin-right: auto;
+@media (width <= 960px){
+	.lavContainer{
+        flex-direction: column;
+		justify-content: space-around;		
+    }
+
+	.lavContainer img{
+        width: auto;
+		height: 50%;
+    }
+}
+@media (width <= 640px){
+	.lavContainer{
+		width: 100%;
+    }
+	
 }

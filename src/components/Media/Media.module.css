@@ -6,16 +6,13 @@
 
 .Media{
 	background-color: white;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 auto;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding-bottom: 150px;
 }
 
 .Figure{
-	margin: 0;
 	width: 800px;
 	height: 450px;
 }
@@ -28,4 +25,24 @@
 	font-style: normal;
 	font-size: 14px;
 	font-weight: 700;
+}
+
+@media (width <= 960px){
+	.Figure{
+		width: 640px;
+		height: 360px;
+	}
+}
+@media (width <= 640px){
+	.Figure{
+		width: 480px;
+		height: 270px;
+	}
+}
+@media (width <= 320px){
+	.Figure{
+		margin: 8px;
+		width: 320px;
+		height: 180px;
+	}
 }

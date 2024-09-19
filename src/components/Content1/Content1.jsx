@@ -6,19 +6,16 @@ import Image2 from './../../assets/photo22.jpg';
 function Content1() {
 	return (
 		<div className={styles.containerHero}>
-			
-
 			<div className={styles.yellowHero}>
 				<div className={styles.image2}>
 					<img src={Image2} alt="" />
 
 				</div>
+				<div className={styles.image1}>
+					<img src={Image} alt="" />
+				</div>
+
 			</div>
-			
-			<div className={styles.image1}>
-				<img src={Image} alt="" />
-			</div>
-			
 
 		</div>
 	)

@@ -1,25 +1,68 @@
-
-
-.containerHero{
-	height: 935px;
+.containerHero {
+	height: 100vh;
 	background-color: white;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	padding-top: 70px;
-	padding-bottom: 70px;
+	overflow: hidden;
+
+
 }
-.yellowHero{
+
+.yellowHero {
 	background-color: #fbffa7;
-	height: 935px;
-	width: 935px;
+	height: 100%;
+	width: 60%;
 	margin-left: auto;
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	position: relative;
+
 }
-.image1{
+
+.image1 {
 	position: absolute;
-	padding-left: 67px;
-	left: 350px;
+	right: 90%;
+
+}
+
+.image2 {
+	position: absolute;
+	right: 10%;
+
+}
+
+@media (width <=960px) {
+	.containerHero {
+		height: auto;
+	
+	}	
+	.yellowHero {
+		width: 100%; /* Full width of the container */
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: auto;
+	  }
+	  
+	  .image1, .image2 {
+		height: auto; /* Maintain the aspect ratio */
+		display: flex;
+		justify-content: center; /* Centers the image inside the div */
+	  }
+	  
+	  .image1 img, .image2 img {
+		width: 100%; /* The image fills its parent container */
+		height: auto; /* Maintains aspect ratio */
+		object-fit: cover; /* Optional: fits the image inside the div without stretching */
+	  }
+
+	.image1 {
+		position: static;
+		width: 100%;
+
+	}
+
+	.image2 {
+		position: static;
+		width: 100%;
+
+	}
 }

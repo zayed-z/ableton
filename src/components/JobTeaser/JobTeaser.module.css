@@ -4,32 +4,31 @@
 }
 
 
-.teaserContainer{
-	height: 667px;
+.teaserContainer {
+	width: 100%;
 	background-color: white;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding: 100px 133px 133px 133px;
-	
-}
+	overflow: hidden;
 
-.imgText{
-	margin-left: auto;
-	margin-right: auto;
-	display: flex;
 
 }
 
-.imgText img{
-	width: 667px;
-	height: 667px;
-	
+.imgText {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+
 }
 
-.jobCont{
-	width: 667px;
-	height: 667px;
+.imgText img {
+	width: 100%;
+	height: 100%;
+
+
+}
+
+.jobCont {
 	background-color: #b1c5ff;
 	padding: 133px;
 	box-sizing: border-box;
@@ -39,19 +38,46 @@
 	font-weight: 700;
 }
 
-.jobCont a{
+.jobCont a {
 	text-decoration: none;
 	color: #0000ff;
 }
 
 .hasArrow::after {
 	box-sizing: border-box;
-    display: inline-block;
-    width: 0.3em;
-    height: 0.3em;
-    content: '';
-    border-style: solid;
-    border-width: 0.09em 0.09em 0 0;
-    transform: rotate(50deg) skew(10deg) translateY(-50%); /* Rotate to make it an arrow */
-    margin-left: 0.1em; /* Optional: space between text and arrow */
+	display: inline-block;
+	width: 0.3em;
+	height: 0.3em;
+	content: '';
+	border-style: solid;
+	border-width: 0.09em 0.09em 0 0;
+	transform: rotate(50deg) skew(10deg) translateY(-50%);
+	/* Rotate to make it an arrow */
+	margin-left: 0.1em;
+	/* Optional: space between text and arrow */
+}
+
+@media (width <=960px) {
+	.jobCont {
+		padding: 64px;
+		font-size: 40px;
+		display: flex;
+		align-items: flex-start;
+		justify-content: center;
+		flex-direction: column;
+	}
+}
+
+@media (width <=640px) {
+
+	.imgText {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.imgText img{
+		height: auto;
+		width: 100%;
+	}
+
 }
